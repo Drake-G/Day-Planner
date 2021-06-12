@@ -35,9 +35,9 @@ if (hour == 10) {
     document.getElementById("description2").classList.remove("past")
 }
 if (hour < 10) {
-    document.getElementById("description3").classList.add("future")
-    document.getElementById("description3").classList.remove("present")
-    document.getElementById("description3").classList.remove("past")
+    document.getElementById("description2").classList.add("future")
+    document.getElementById("description2").classList.remove("present")
+    document.getElementById("description2").classList.remove("past")
 }
 if (hour > 11) {
     document.getElementById("description3").classList.add("past")
